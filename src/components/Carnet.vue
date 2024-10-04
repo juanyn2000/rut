@@ -39,11 +39,11 @@ export default {
           <section>
             <article>
               <header>APELLIDOS</header>
-              <span></span>
+              <span>{{apellido}}</span>
             </article>
             <article>
               <header>NOMBRES</header>
-              <span></span>
+              <span>{{nombre}}</span>
             </article>
   
             <div class="grid-2-colums">
