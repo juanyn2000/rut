@@ -4,6 +4,15 @@ export default {
     data() {
       return {
         run: "22.222.222-2",
+        apellido: "MUSK",
+        nombre: "ELON REEVE",
+        nacionalidad: "SUDAFRICANO",
+        sexo: "M",
+        fechaNacimiento: "28 JUN 1971",
+        numeroDocumento: "222.222.222",
+        fechaEmision: "01 ENE 2025",
+        fechaVencimiento:"01 ENE 2030",
+
       }
     }
     
@@ -30,41 +39,41 @@ export default {
           <section>
             <article>
               <header>APELLIDOS</header>
-              <span>MUSK</span>
+              <span></span>
             </article>
             <article>
               <header>NOMBRES</header>
-              <span>ELON REEVE</span>
+              <span></span>
             </article>
   
             <div class="grid-2-colums">
               <article>
                 <header>NACIONALIDAD</header>
-                <span>SUDAFRICANO</span>
+                <span>{{nacionalidad}}</span>
               </article>
               <article>
                 <header>SEXO</header>
-                <span>M</span>
+                <span>{{sexo}}</span>
               </article>
             </div>
             <div class="grid-2-colums">
               <article>
                 <header>FECHA DE NACIMIENTO</header>
-                <span>28 JUN 1971 </span>
+                <span>{{ fechaNacimiento }} </span>
               </article>
               <article>
                 <header>NÙMERO DOCUMENTO</header>
-                <span>222.222.222</span>
+                <span>{{numeroDocumento}}</span>
               </article>
             </div>
             <div class="grid-2-colums">
               <article>
                 <header>FECHA DE EMISIÒN</header>
-                <span>01 ENE 2025</span>
+                <span>{{fechaEmision}}</span>
               </article>
               <article>
                 <header>FECHA DE VENCIMIENTO</header>
-                <span>01 ENE 2030</span>
+                <span>{{fechaVencimiento}}</span>
               </article>
             </div>
             <article>
